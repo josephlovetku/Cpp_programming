@@ -20,7 +20,7 @@ void rectangle::set(unit wd, unit ht)
 
 void rectangle::area() 
 {
-  cout << "The area of the rectangle is: " << width * height << endl;
+  cout << "The area: " << width * height << endl;
 }
 
 int main()
