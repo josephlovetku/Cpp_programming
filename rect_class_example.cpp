@@ -25,13 +25,13 @@ void rectangle::area()
 
 int main()
 {
-  rectangle obj; //creating object of rectangle class
-  rectangle::unit x, y;
-  cout << "Enter width: "; 
-  cin >> x;
-  cout << "Enter height: ";
-  cin >> y;
-  obj.set(x, y);
-  obj.area(); 
-  return 0;
+	rectangle obj, *obj2; //creating object of rectangle class
+  	rectangle::unit x, y;
+  	cin >> x;
+  	cin >> y;
+  	obj.set(x, y);
+	obj2 = &obj;
+  	obj.area();
+	obj2->area(); 
+  	return 0;
 }
