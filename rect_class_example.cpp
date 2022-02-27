@@ -18,7 +18,7 @@ void rectangle::set(unit wd, unit ht)
 }
 
 
-void rectangle::area() //defining function using scope resolution operator
+void rectangle::area() 
 {
   cout << "The area of the rectangle is: " << width * height << endl;
 }
