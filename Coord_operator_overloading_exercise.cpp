@@ -3,7 +3,7 @@
 An Exercise for Operator Overloading in C++
 Reference: An Hung in NTU
 Author: Joseph Chuang-Chieh Lin
-Date: May 30 20222
+Date: May 30 2022
 
 *******************************************************************************/
 #include <iostream>
